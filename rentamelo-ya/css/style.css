@@ -1,0 +1,184 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	background: rgba(40,169,213,0.7);
+}
+
+#LogoCarro{
+	text-align: initial;
+	width: 100%;
+	background: honeydew;
+	
+}
+
+
+#LogoCarro a img{
+	margin-left: 5%;
+	margin-top: 4%;
+	margin-bottom: 1%; 
+	width: 15%;
+}
+
+
+
+
+#IniciarSesion{
+	background: #28A9D5;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 100px;
+	width: 150px;
+	padding: 0.5%;
+	margin-right: 5%;
+	border-radius: 15px;
+	border: 0.5px solid black;
+}
+
+#IniciarSesion:hover{
+	background: #225399;
+}
+
+
+.slider{
+	overflow: hidden;
+}
+
+
+.slider img{
+	width: 60%;
+	height: 200px;
+}
+
+
+.slider ul{
+	padding: 0;
+	display: flex;
+	width: 300%;
+	background: #28A9D5;
+	
+
+	animation: cambio 30s infinite;
+}
+
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+
+@keyframes cambio{
+	0%{margin-left: 0;}
+	23%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	48%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	73%{margin-left: -200%;}
+
+	75%{margin-left: -100%;}
+	98%{margin-left: -100%;}
+
+	99%{margin-left: 0;}
+}
+
+
+#contenido{
+	width: 70%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	padding-left: 5%;
+	padding-right: 5%; 
+}
+
+
+#Reseña{
+	border:1px solid black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	width: 30%;
+	margin-right: 35%;
+	margin-left: 35%;
+	background: white;
+}
+
+
+#Reseña p{
+	text-align: justify;
+}
+
+#Mision{
+	border:1px solid black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	width: 30%;
+	margin-right: 35%;
+	margin-left: 35%;
+	background: white;
+}
+
+#Mision p{
+	text-align: justify;
+}
+
+
+#Vision{
+	border:1px solid black;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 3%;
+	padding-left: 3%;
+	width: 30%;
+	margin-right: 35%;
+	margin-left: 35%;
+	background: white;
+}
+
+#Vision p{
+	text-align: justify;
+}
+
+footer{
+	background: #28A9D5;
+	color: white;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spacing-1{
+  margin-top: 5em;
+}
+
+.spacing-2{
+  margin-top: 1em;
+}
+
+.center{
+  text-align: center;
+}
+
+.text-accent{
+  color: #727272;
+}
