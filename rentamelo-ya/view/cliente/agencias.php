@@ -84,3 +84,4 @@ if (isset($_SESSION["nombre"])) {
 </body>
 </html>
 <?php include 'partials/footer.php';?>
+
