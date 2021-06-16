@@ -31,7 +31,7 @@ if (isset($_SESSION["nombre"])) {
 
 ?>
  <title>autos</title>
- <link rel="stylesheet" href="../../../css/bootstrap.min.css" />
+ <link rel="stylesheet" href="../../../css/bootstrap.min.css"  />
 </head>
 <body>
 <div class="container">
